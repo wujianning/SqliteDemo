@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wjn.sqlitedemo.view.MarqueeText
+        android:id="@+id/activity_motionevent_marqueetext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:gravity="center|left"/>
+
+    <com.dalong.marqueeview.MarqueeView
+        android:id="@+id/tv_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/activity_motionevent_marqueetext"
+        app:direction="left"
+        app:isRepeat="true"
+        app:speed="50"
+        app:startPoint="end"
+        app:textSize="12sp"
+        app:textcolor="#E72803" />
+
+
+    <TextView
+    android:id="@+id/activity_motionevent_textview"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:clickable="true"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:background="#FF0000"
+    android:textColor="#FFFFFF"
+    android:text="Android 自定义View之MotionEvent方法详解"/>
+
+</RelativeLayout>

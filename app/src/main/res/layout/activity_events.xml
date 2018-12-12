@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wjn.sqlitedemo.view.MyLinearlayout
+        android:id="@+id/mylinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.wjn.sqlitedemo.view.MyButtons
+            android:id="@+id/mybuttons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Android事件传递"/>
+    </com.wjn.sqlitedemo.view.MyLinearlayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_sms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:text="跳转到拨打电话页面"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/activity_sms_textviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_below="@+id/activity_sms_textview"/>
+
+
+</RelativeLayout>

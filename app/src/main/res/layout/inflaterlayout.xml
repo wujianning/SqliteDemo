@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/layoutinflater_textview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="我是动态引入的TextView"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/layoutinflater_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/layoutinflater_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="我是动态引入的Button"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

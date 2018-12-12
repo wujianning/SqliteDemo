@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="myButton">
+        <attr name="step" format="integer" />
+        <attr name="steps" format="string" />
+    </declare-styleable>
+</resources>
